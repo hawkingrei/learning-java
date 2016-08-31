@@ -31,6 +31,6 @@ public class gBiMap {
     britishToAmerican.forcePut("sweet","dessert");
     System.out.println(britishToAmerican.get("sweet")); // dessert
 
-    System.out.println(britishToAmerican.get("pudding")); // null  
+    System.out.println(britishToAmerican.get("pudding")); // null
   }
 }
