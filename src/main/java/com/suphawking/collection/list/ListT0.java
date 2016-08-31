@@ -17,7 +17,7 @@ import java.util.ListIterator;
  */
 public class ListT0 {
   public static void main(String[] args) {
-    List<String> list = new ArrayList<>();
+    List<String> list = new ArrayList();
     list.add("1");
     list.add("2");
     list.add("3");
@@ -29,10 +29,11 @@ public class ListT0 {
     ListIterator listIterator = list.listIterator();
     while (listIterator.hasNext()) {
       Object o = listIterator.next();
-      System.out.println(o);
+
       if (o.equals("aaa")) {
         listIterator.remove();
       }
+      System.out.println(o);
     }
   }
 
