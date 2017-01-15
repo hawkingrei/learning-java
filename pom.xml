@@ -11,10 +11,9 @@
 
     <properties>
         <guice.version>4.0</guice.version>
-        <guava.version>18.0</guava.version>
+        <guava.version>20.0</guava.version>
     </properties>
     <dependencies>
-
         <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
@@ -34,7 +33,7 @@
         <dependency>
             <groupId>io.airlift</groupId>
             <artifactId>slice</artifactId>
-            <version>0.2</version>
+            <version>0.28</version>
         </dependency>
     </dependencies>
 
